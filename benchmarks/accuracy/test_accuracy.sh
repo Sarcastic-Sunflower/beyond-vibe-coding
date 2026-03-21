@@ -6,7 +6,8 @@ if [ "$#" -ne 3 ]; then
 fi
 
 X=$1; Y=$2; Z=$3
-TARGET_FILE="../../experiments/runs/run_D${X}_C${Y}.${Z}/output.txt"
+TARGET_FILE="../../experiments/runs/run_D${X}_C${Y}.${Z}/output${X}.txt"
+echo $TARGET_FILE
 TRUE_FILE="../../datasets/ground_truth/true_moves${X}.txt"
 SUMMARY_FILE="summary${X}.txt"
 
