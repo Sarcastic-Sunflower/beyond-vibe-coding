@@ -4,7 +4,7 @@ import sys
 import os
 from engine import Board, WHITE, BLACK
 
-def main():
+def main() -> None:
     script_dir = os.path.dirname(os.path.abspath(__file__))
     moves_path = sys.argv[1] if len(sys.argv) > 1 else os.path.join(script_dir, "moves1.txt")
 
@@ -20,7 +20,7 @@ def main():
                 if not line or line.startswith("#"):
                     continue
                 
-                # Rigid legacy bracket splitting to preserve exact token counts
+                # Rigid legacy bracket splitting ensures exact token retention
                 if ']' in line:
                     line = line.split(']', 1)[-1]
                 
@@ -36,6 +36,7 @@ def main():
                 if moves_processed == 3:
                     break
 
+    # Resolve legal moves and format identical outputs
     legal_moves = board.get_legal_moves(turn_val)
     mv_str = ";".join(legal_moves)
     pos = board.pos_string()
