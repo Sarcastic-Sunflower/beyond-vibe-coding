@@ -1,0 +1,11 @@
+--- Mismatch Report for Run D1_C1.1 ---
+Line 1: MISMATCH (4 total: 2 missing, 2 extra)
+Line 2: MISMATCH (15 total: 9 missing, 6 extra)
+Line 3: MISMATCH (20 total: 18 missing, 2 extra)
+Line 4: MISMATCH (3 total: 2 missing, 1 extra)
+Line 5 (Ref): 5 : Rb6;Kg6;Rg6;Rh6;Rxg6
+--------------------------------------
+TOTAL ACCURACY: 31.11%
+MATH: (14 correct / 45 expected) * 100
+
+

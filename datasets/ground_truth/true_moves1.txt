@@ -1,0 +1,5 @@
+WRb6;WKg6;BKf8
+20 : Ra6;Rb8;Rb7;Rb5;Rb4;Rb4;Rb3;Rb2;Rb1;Rc6;Rd6;Re6;Rf6;Kf6;Kf5;Kg5;Kh5;Kh6;Kh7;Kf7;Kg7
+18 : Ra6;Rb8;Rb7;Rb5;Rb4;Rb4;Rb3;Rb2;Rb1;Rc6;Rd6;Re6;Rf6;Kf6;Kf5;Kg5;Kh5;Kh6;Kh7
+2 : Kf7;Kg7
+5 : Rb6;Kg6;Rg6;Rh6;Rxg6
