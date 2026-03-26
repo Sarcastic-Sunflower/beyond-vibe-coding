@@ -21,6 +21,7 @@ run_correct=0
 run_total=0
 
 {
+    echo "======== run_D${X}_C${Y}.${Z} ========"
     echo "--- Mismatch Report for output${X}.txt ---"
     
     for i in {1..4}; do

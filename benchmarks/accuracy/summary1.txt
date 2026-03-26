@@ -1,66 +1,12 @@
---- Mismatch Report for Run D1_C1.1 ---
-Line 1: MISMATCH (2 total: 1 missing, 1 extra)
-Line 2: MISMATCH (20 total: 18 missing, 2 extra)
-Line 3: MISMATCH (18 total: 16 missing, 2 extra)
-Line 4: MISMATCH (3 total: 2 missing, 1 extra)
-Line 5 (Ref): 5 : Rb6;Kg6;Rg6;Rh6;Rxg6
---------------------------------------
-TOTAL ACCURACY: 17.77%
-MATH: (8 correct / 45 expected) * 100
-
-
---- Mismatch Report for output1.txt ---
-Line 1: MISMATCH (2 total: 1 missing, 1 extra)
-Line 2: MISMATCH (20 total: 18 missing, 2 extra)
-Line 3: MISMATCH (18 total: 16 missing, 2 extra)
-Line 4: MISMATCH (3 total: 2 missing, 1 extra)
-Line 5 (Ref): 5 : Rb6;Kg6;Rg6;Rh6;Rxg6
---------------------------------------
-TOTAL ACCURACY: 17.77%
-MATH: (8 correct / 45 expected) * 100
-
-
---- Mismatch Report for output1.txt ---
-Line 1: MISMATCH (2 total: 1 missing, 1 extra)
-Line 2: MISMATCH (21 total: 18 missing, 3 extra)
-Line 3: MISMATCH (19 total: 16 missing, 3 extra)
-Line 4: MISMATCH (3 total: 2 missing, 1 extra)
-Line 5 (Ref): 5 : Rb6;Kg6;Rg6;Rh6;Rxg6
---------------------------------------
-TOTAL ACCURACY: 17.77%
-MATH: (8 correct / 45 expected) * 100
-
-
---- Mismatch Report for output1.txt ---
-Line 1: MISMATCH (2 total: 1 missing, 1 extra)
-Line 2: MISMATCH (20 total: 18 missing, 2 extra)
-Line 3: MISMATCH (18 total: 16 missing, 2 extra)
-Line 4: MISMATCH (3 total: 2 missing, 1 extra)
-Line 5 (Ref): 5 : Rb6;Kg6;Rg6;Rh6;Rxg6
---------------------------------------
-TOTAL ACCURACY: 17.77%
-MATH: (8 correct / 45 expected) * 100
-
-
+======== run_D1_C1.1 ========
 --- Mismatch Report for output1.txt ---
 Line 1: MISMATCH (4 total: 2 missing, 2 extra)
-Line 2: MISMATCH (22 total: 19 missing, 3 extra)
-Line 3: MISMATCH (22 total: 18 missing, 4 extra)
-Line 4: MISMATCH (3 total: 2 missing, 1 extra)
-Line 5 (Ref): 5 : Rb6;Kg6;Rg6;Rh6;Rxg6
---------------------------------------
-TOTAL ACCURACY: 8.88%
-MATH: (4 correct / 45 expected) * 100
-
-
---- Mismatch Report for output1.txt ---
-Line 1: MISMATCH (2 total: 1 missing, 1 extra)
-Line 2: MISMATCH (11 total: 5 missing, 6 extra)
+Line 2: MISMATCH (17 total: 17 missing, 0 extra)
 Line 3: MISMATCH (11 total: 4 missing, 7 extra)
-Line 4: MISMATCH (3 total: 2 missing, 1 extra)
+Line 4: MISMATCH (5 total: 1 missing, 4 extra)
 Line 5 (Ref): 5 : Rb6;Kg6;Rg6;Rh6;Rxg6
 --------------------------------------
-TOTAL ACCURACY: 73.33%
-MATH: (33 correct / 45 expected) * 100
+TOTAL ACCURACY: 46.66%
+MATH: (21 correct / 45 expected) * 100
 
 
