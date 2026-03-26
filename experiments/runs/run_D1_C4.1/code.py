@@ -1,0 +1,43 @@
+import os
+from board import Board
+import engine
+
+def main():
+    board = Board()
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    moves_path = os.path.join(base_dir, "moves1.txt")
+    output_path = os.path.join(base_dir, "output1.txt")
+
+    # 1. Process the first 3 moves from the file
+    try:
+        with open(moves_path, "r") as f:
+            # Flatten moves list (handles spaces/tabs/newlines)
+            move_history = f.read().split()
+            for i in range(min(3, len(move_history))):
+                board.apply_move(move_history[i])
+    except FileNotFoundError:
+        print("Input file moves1.txt not found.")
+        return
+
+    # 2. Get state and generate move sets
+    current_state = board.get_pos_string()
+    all_moves = engine.get_legal_moves(board)
+    all_moves_str = ";".join(all_moves)
+    
+    # 3. Corrected Logical Output for Line 4: Filter strictly for Rook moves
+    rook_moves = [m for m in all_moves if m.startswith('R')]
+    rook_moves_str = ";".join(rook_moves)
+
+    # 4. Write output in the exact required format
+    output_lines = [
+        current_state,
+        f"{len(all_moves)} : {all_moves_str}",
+        f"{len(all_moves)} : {all_moves_str}",
+        f"{len(rook_moves)} : {rook_moves_str}"
+    ]
+
+    with open(output_path, "w") as f:
+        f.write("\n".join(output_lines) + "\n")
+
+if __name__ == "__main__":
+    main()
