@@ -1,0 +1,4 @@
+BKg7;WKg4;WRa5
+22 : Kf3;Kf4;Kf5;Kg3;Kg5;Kh3;Kh4;Kh5;Ra1;Ra2;Ra3;Ra4;Ra6;Ra7;Ra8;Rb5;Rc5;Rd5;Re5;Rf5;Rg5;Rh5
+22 : Kf3;Kf4;Kf5;Kg3;Kg5;Kh3;Kh4;Kh5;Ra1;Ra2;Ra3;Ra4;Ra6;Ra7;Ra8;Rb5;Rc5;Rd5;Re5;Rf5;Rg5;Rh5
+14 : Ra1;Ra2;Ra3;Ra4;Ra6;Ra7;Ra8;Rb5;Rc5;Rd5;Re5;Rf5;Rg5;Rh5
