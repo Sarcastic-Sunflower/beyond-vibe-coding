@@ -1,4 +1,4 @@
-WKg7;WRb6;BKf8
-5 : Kf6;Kg6;Kh6;Kh7;Kh8
-5 : Kf6;Kg6;Kh6;Kh7;Kh8
-0 :
+WKg5;WRb6;BKg7
+4 : Kf7;Kg7;Kh6;Kh7
+22 : Kf3;Kf4;Kf5;Kg3;Kg5;Kh3;Kh4;Kh5;Ra6;Rb1;Rb2;Rb3;Rb4;Rb5;Rb7;Rb8;Rc6;Rd6;Re6;Rf6;Rg6;Rh6
+5 : Kf7;Kf8;Kg8;Kh7;Kh8

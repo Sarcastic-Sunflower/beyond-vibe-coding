@@ -1,4 +1,0 @@
-WKg4;WRb6;BKg6
-18 : Kf3;Kf4;Kg3;Kh3;Kh4;Ra6;Rb1;Rb2;Rb3;Rb4;Rb5;Rb7;Rb8;Rc6;Rd6;Re6;Rf6;Rxg6
-18 : Kf3;Kf4;Kg3;Kh3;Kh4;Ra6;Rb1;Rb2;Rb3;Rb4;Rb5;Rb7;Rb8;Rc6;Rd6;Re6;Rf6;Rxg6
-0 :
