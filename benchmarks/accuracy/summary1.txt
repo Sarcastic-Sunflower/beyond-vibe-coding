@@ -238,3 +238,63 @@ TOTAL ACCURACY: 73.33%
 MATH: (33 correct / 45 expected) * 100
 
 
+======== run_D1_C5.1 ========
+--- Mismatch Report for output1.txt ---
+Line 1: MISMATCH (4 total: 2 missing, 2 extra)
+Line 2: MISMATCH (11 total: 5 missing, 6 extra)
+Line 3: MISMATCH (9 total: 3 missing, 6 extra)
+Line 4: MISMATCH (4 total: 2 missing, 2 extra)
+Line 5 (Ref): 5 : Rb6;Kg6;Rg6;Rh6;Rxg6
+--------------------------------------
+TOTAL ACCURACY: 73.33%
+MATH: (33 correct / 45 expected) * 100
+
+
+======== run_D1_C5.2 ========
+--- Mismatch Report for output1.txt ---
+Line 1: MISMATCH (4 total: 2 missing, 2 extra)
+Line 2: MISMATCH (11 total: 5 missing, 6 extra)
+Line 3: MISMATCH (9 total: 3 missing, 6 extra)
+Line 4: MISMATCH (4 total: 2 missing, 2 extra)
+Line 5 (Ref): 5 : Rb6;Kg6;Rg6;Rh6;Rxg6
+--------------------------------------
+TOTAL ACCURACY: 73.33%
+MATH: (33 correct / 45 expected) * 100
+
+
+======== run_D1_C5.3 ========
+--- Mismatch Report for output1.txt ---
+Line 1: MISMATCH (4 total: 2 missing, 2 extra)
+Line 2: MISMATCH (11 total: 5 missing, 6 extra)
+Line 3: MISMATCH (9 total: 3 missing, 6 extra)
+Line 4: MISMATCH (4 total: 2 missing, 2 extra)
+Line 5 (Ref): 5 : Rb6;Kg6;Rg6;Rh6;Rxg6
+--------------------------------------
+TOTAL ACCURACY: 73.33%
+MATH: (33 correct / 45 expected) * 100
+
+
+======== run_D1_C5.4 ========
+--- Mismatch Report for output1.txt ---
+Line 1: MISMATCH (4 total: 2 missing, 2 extra)
+Line 2: MISMATCH (11 total: 5 missing, 6 extra)
+Line 3: MISMATCH (9 total: 3 missing, 6 extra)
+Line 4: MISMATCH (4 total: 2 missing, 2 extra)
+Line 5 (Ref): 5 : Rb6;Kg6;Rg6;Rh6;Rxg6
+--------------------------------------
+TOTAL ACCURACY: 73.33%
+MATH: (33 correct / 45 expected) * 100
+
+
+======== run_D1_C5.5 ========
+--- Mismatch Report for output1.txt ---
+Line 1: MISMATCH (6 total: 3 missing, 3 extra)
+Line 2: MISMATCH (31 total: 15 missing, 16 extra)
+Line 3: MISMATCH (29 total: 13 missing, 16 extra)
+Line 4: MISMATCH (4 total: 2 missing, 2 extra)
+Line 5 (Ref): 5 : Rb6;Kg6;Rg6;Rh6;Rxg6
+--------------------------------------
+TOTAL ACCURACY: 26.66%
+MATH: (12 correct / 45 expected) * 100
+
+
