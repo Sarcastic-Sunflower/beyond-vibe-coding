@@ -1,0 +1,4 @@
+WKa5;WPd7;WPe7;BKa7;BNc8
+9 : Kb7;Kb8;Ka8;Ka6;Kb6;Ne7;Na7;Nd6;Nb6
+8 : Kb7;Kb8;Ka8;Ka6;Kb6;Ne7;Nd6;Nb6
+1 : Na7
