@@ -1,0 +1,39 @@
+BASELINE SCRIPT ANALYSIS REPORT
+========================================
+
+SCRIPT: dataset1.py
+###################
+  -> get_moves
+     Complexity: 23 | LOC: 32 | Params: 1
+  -> pos_string
+     Complexity: 5 | LOC: 9 | Params: 0
+  -> do_move
+     Complexity: 8 | LOC: 16 | Params: 2
+  -> main
+     Complexity: 8 | LOC: 23 | Params: 0
+
+  > SCRIPT SUMMARY: dataset1.py
+    Functions:       4
+    Total NLOC:      80
+    Avg Complexity:  11.00
+
+----------------------------------------
+
+SCRIPT: dataset2.py
+###################
+  -> get_moves
+     Complexity: 23 | LOC: 32 | Params: 1
+  -> pos_string
+     Complexity: 5 | LOC: 9 | Params: 0
+  -> do_move
+     Complexity: 8 | LOC: 16 | Params: 2
+  -> main
+     Complexity: 8 | LOC: 23 | Params: 0
+
+  > SCRIPT SUMMARY: dataset2.py
+    Functions:       4
+    Total NLOC:      80
+    Avg Complexity:  11.00
+
+----------------------------------------
+

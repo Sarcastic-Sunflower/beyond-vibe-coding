@@ -1,0 +1,547 @@
+COMMUNAL LIZARD ANALYSIS REPORT
+========================================
+
+FOLDER: run_D1_C1.1
+###################
+  [engine.py] -> __init__
+    Complexity: 3 | LOC: 6 | Params: 1
+  [engine.py] -> _get_pos
+    Complexity: 1 | LOC: 2 | Params: 2
+  [engine.py] -> get_moves
+    Complexity: 21 | LOC: 27 | Params: 2
+  [engine.py] -> apply_move
+    Complexity: 8 | LOC: 13 | Params: 2
+  [engine.py] -> get_position_string
+    Complexity: 5 | LOC: 9 | Params: 1
+  [code.py] -> main
+    Complexity: 8 | LOC: 22 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C1.1
+    Total Functions: 6
+    Total NLOC:      79
+    Avg Complexity:  7.67
+
+----------------------------------------
+
+FOLDER: run_D1_C1.2
+###################
+  [engine.py] -> __init__
+    Complexity: 3 | LOC: 6 | Params: 1
+  [engine.py] -> _to_idx
+    Complexity: 1 | LOC: 2 | Params: 2
+  [engine.py] -> apply_move
+    Complexity: 8 | LOC: 12 | Params: 2
+  [engine.py] -> get_moves
+    Complexity: 21 | LOC: 26 | Params: 2
+  [engine.py] -> get_position_string
+    Complexity: 5 | LOC: 8 | Params: 1
+  [code.py] -> main
+    Complexity: 3 | LOC: 18 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C1.2
+    Total Functions: 6
+    Total NLOC:      72
+    Avg Complexity:  6.83
+
+----------------------------------------
+
+FOLDER: run_D1_C1.3
+###################
+  [engine.py] -> __init__
+    Complexity: 3 | LOC: 6 | Params: 1
+  [engine.py] -> _to_idx
+    Complexity: 1 | LOC: 2 | Params: 2
+  [engine.py] -> apply_move
+    Complexity: 9 | LOC: 13 | Params: 2
+  [engine.py] -> get_moves
+    Complexity: 21 | LOC: 26 | Params: 2
+  [engine.py] -> get_position_string
+    Complexity: 4 | LOC: 8 | Params: 1
+  [code.py] -> main
+    Complexity: 3 | LOC: 18 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C1.3
+    Total Functions: 6
+    Total NLOC:      73
+    Avg Complexity:  6.83
+
+----------------------------------------
+
+FOLDER: run_D1_C1.4
+###################
+  [engine.py] -> __init__
+    Complexity: 3 | LOC: 6 | Params: 1
+  [engine.py] -> _to_idx
+    Complexity: 1 | LOC: 2 | Params: 2
+  [engine.py] -> apply_move
+    Complexity: 9 | LOC: 13 | Params: 2
+  [engine.py] -> get_moves
+    Complexity: 21 | LOC: 28 | Params: 2
+  [engine.py] -> get_position_string
+    Complexity: 4 | LOC: 8 | Params: 1
+  [code.py] -> main
+    Complexity: 3 | LOC: 18 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C1.4
+    Total Functions: 6
+    Total NLOC:      75
+    Avg Complexity:  6.83
+
+----------------------------------------
+
+FOLDER: run_D1_C1.5
+###################
+  [engine.py] -> __init__
+    Complexity: 1 | LOC: 6 | Params: 1
+  [engine.py] -> _to_idx
+    Complexity: 1 | LOC: 2 | Params: 2
+  [engine.py] -> apply_move
+    Complexity: 6 | LOC: 11 | Params: 2
+  [engine.py] -> get_moves
+    Complexity: 21 | LOC: 30 | Params: 2
+  [engine.py] -> get_position_string
+    Complexity: 3 | LOC: 5 | Params: 1
+  [code.py] -> main
+    Complexity: 3 | LOC: 18 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C1.5
+    Total Functions: 6
+    Total NLOC:      72
+    Avg Complexity:  5.83
+
+----------------------------------------
+
+FOLDER: run_D1_C2.1
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 20 | LOC: 34 | Params: 1
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 3 | Params: 1
+  [board.py] -> to_idx
+    Complexity: 1 | LOC: 2 | Params: 2
+  [board.py] -> from_idx
+    Complexity: 1 | LOC: 2 | Params: 2
+  [board.py] -> apply_san_move
+    Complexity: 6 | LOC: 10 | Params: 2
+  [board.py] -> get_position_string
+    Complexity: 3 | LOC: 3 | Params: 1
+  [code.py] -> main
+    Complexity: 3 | LOC: 20 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C2.1
+    Total Functions: 7
+    Total NLOC:      74
+    Avg Complexity:  5.00
+
+----------------------------------------
+
+FOLDER: run_D1_C2.2
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 20 | LOC: 35 | Params: 1
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 3 | Params: 1
+  [board.py] -> to_idx
+    Complexity: 1 | LOC: 2 | Params: 2
+  [board.py] -> from_idx
+    Complexity: 1 | LOC: 2 | Params: 2
+  [board.py] -> apply_san_move
+    Complexity: 8 | LOC: 13 | Params: 2
+  [board.py] -> get_position_string
+    Complexity: 2 | LOC: 3 | Params: 1
+  [code.py] -> main
+    Complexity: 3 | LOC: 20 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C2.2
+    Total Functions: 7
+    Total NLOC:      78
+    Avg Complexity:  5.14
+
+----------------------------------------
+
+FOLDER: run_D1_C2.3
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 20 | LOC: 38 | Params: 1
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 3 | Params: 1
+  [board.py] -> to_idx
+    Complexity: 1 | LOC: 2 | Params: 2
+  [board.py] -> from_idx
+    Complexity: 1 | LOC: 2 | Params: 2
+  [board.py] -> apply_san_move
+    Complexity: 7 | LOC: 14 | Params: 2
+  [board.py] -> get_position_string
+    Complexity: 2 | LOC: 3 | Params: 1
+  [code.py] -> main
+    Complexity: 3 | LOC: 18 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C2.3
+    Total Functions: 7
+    Total NLOC:      80
+    Avg Complexity:  5.00
+
+----------------------------------------
+
+FOLDER: run_D1_C2.4
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 22 | LOC: 39 | Params: 2
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 3 | Params: 1
+  [board.py] -> to_idx
+    Complexity: 1 | LOC: 2 | Params: 2
+  [board.py] -> from_idx
+    Complexity: 1 | LOC: 2 | Params: 2
+  [board.py] -> apply_san_move
+    Complexity: 7 | LOC: 14 | Params: 2
+  [board.py] -> get_position_string
+    Complexity: 2 | LOC: 3 | Params: 1
+  [code.py] -> main
+    Complexity: 3 | LOC: 20 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C2.4
+    Total Functions: 7
+    Total NLOC:      83
+    Avg Complexity:  5.29
+
+----------------------------------------
+
+FOLDER: run_D1_C2.5
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 19 | LOC: 36 | Params: 2
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 5 | Params: 1
+  [board.py] -> apply_san_move
+    Complexity: 7 | LOC: 15 | Params: 2
+  [board.py] -> get_position_string
+    Complexity: 2 | LOC: 3 | Params: 1
+  [code.py] -> main
+    Complexity: 6 | LOC: 21 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C2.5
+    Total Functions: 5
+    Total NLOC:      80
+    Avg Complexity:  7.00
+
+----------------------------------------
+
+FOLDER: run_D1_C3.1
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 21 | LOC: 43 | Params: 3
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 5 | Params: 1
+  [board.py] -> apply_san_move
+    Complexity: 10 | LOC: 18 | Params: 2
+  [board.py] -> get_position_string
+    Complexity: 2 | LOC: 3 | Params: 1
+  [code.py] -> main
+    Complexity: 5 | LOC: 19 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C3.1
+    Total Functions: 5
+    Total NLOC:      88
+    Avg Complexity:  7.80
+
+----------------------------------------
+
+FOLDER: run_D1_C3.2
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 24 | LOC: 36 | Params: 3
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 6 | Params: 1
+  [board.py] -> set_piece
+    Complexity: 1 | LOC: 2 | Params: 3
+  [board.py] -> apply_san
+    Complexity: 5 | LOC: 9 | Params: 2
+  [board.py] -> get_pos_string
+    Complexity: 3 | LOC: 5 | Params: 1
+  [code.py] -> main
+    Complexity: 3 | LOC: 16 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C3.2
+    Total Functions: 6
+    Total NLOC:      74
+    Avg Complexity:  6.17
+
+----------------------------------------
+
+FOLDER: run_D1_C3.3
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 22 | LOC: 42 | Params: 3
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 6 | Params: 1
+  [board.py] -> set_piece
+    Complexity: 1 | LOC: 2 | Params: 3
+  [board.py] -> apply_san
+    Complexity: 5 | LOC: 9 | Params: 2
+  [board.py] -> get_pos_string
+    Complexity: 3 | LOC: 6 | Params: 1
+  [code.py] -> main
+    Complexity: 3 | LOC: 20 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C3.3
+    Total Functions: 6
+    Total NLOC:      85
+    Avg Complexity:  5.83
+
+----------------------------------------
+
+FOLDER: run_D1_C3.4
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 23 | LOC: 39 | Params: 3
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 6 | Params: 1
+  [board.py] -> apply_san
+    Complexity: 5 | LOC: 9 | Params: 2
+  [board.py] -> get_pos_string
+    Complexity: 3 | LOC: 6 | Params: 1
+  [code.py] -> main
+    Complexity: 3 | LOC: 18 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C3.4
+    Total Functions: 5
+    Total NLOC:      78
+    Avg Complexity:  7.00
+
+----------------------------------------
+
+FOLDER: run_D1_C3.5
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 23 | LOC: 41 | Params: 3
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 7 | Params: 1
+  [board.py] -> _set_initial
+    Complexity: 1 | LOC: 4 | Params: 3
+  [board.py] -> apply_san
+    Complexity: 6 | LOC: 14 | Params: 2
+  [board.py] -> get_pos_string
+    Complexity: 2 | LOC: 3 | Params: 1
+  [code.py] -> main
+    Complexity: 5 | LOC: 26 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C3.5
+    Total Functions: 6
+    Total NLOC:      95
+    Avg Complexity:  6.33
+
+----------------------------------------
+
+FOLDER: run_D1_C4.1
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 23 | LOC: 38 | Params: 2
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 4 | Params: 1
+  [board.py] -> _setup_initial
+    Complexity: 1 | LOC: 4 | Params: 1
+  [board.py] -> _place
+    Complexity: 1 | LOC: 2 | Params: 3
+  [board.py] -> apply_move
+    Complexity: 5 | LOC: 9 | Params: 2
+  [board.py] -> get_pos_string
+    Complexity: 3 | LOC: 6 | Params: 1
+  [code.py] -> main
+    Complexity: 5 | LOC: 26 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C4.1
+    Total Functions: 7
+    Total NLOC:      89
+    Avg Complexity:  5.57
+
+----------------------------------------
+
+FOLDER: run_D1_C4.2
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 21 | LOC: 39 | Params: 2
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 4 | Params: 1
+  [board.py] -> _setup_initial
+    Complexity: 1 | LOC: 4 | Params: 1
+  [board.py] -> _place
+    Complexity: 1 | LOC: 2 | Params: 3
+  [board.py] -> apply_move
+    Complexity: 5 | LOC: 9 | Params: 2
+  [board.py] -> get_pos_string
+    Complexity: 3 | LOC: 6 | Params: 1
+  [code.py] -> main
+    Complexity: 5 | LOC: 23 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C4.2
+    Total Functions: 7
+    Total NLOC:      87
+    Avg Complexity:  5.29
+
+----------------------------------------
+
+FOLDER: run_D1_C4.3
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 23 | LOC: 33 | Params: 2
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 4 | Params: 1
+  [board.py] -> _setup_initial
+    Complexity: 1 | LOC: 4 | Params: 1
+  [board.py] -> _place
+    Complexity: 1 | LOC: 2 | Params: 3
+  [board.py] -> apply_move
+    Complexity: 5 | LOC: 8 | Params: 2
+  [board.py] -> get_pos_string
+    Complexity: 3 | LOC: 6 | Params: 1
+  [code.py] -> main
+    Complexity: 8 | LOC: 26 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C4.3
+    Total Functions: 7
+    Total NLOC:      83
+    Avg Complexity:  6.00
+
+----------------------------------------
+
+FOLDER: run_D1_C4.4
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 14 | LOC: 29 | Params: 1
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 3 | Params: 1
+  [board.py] -> apply_move
+    Complexity: 5 | LOC: 8 | Params: 2
+  [board.py] -> get_pos_string
+    Complexity: 2 | LOC: 3 | Params: 1
+  [code.py] -> main
+    Complexity: 7 | LOC: 23 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C4.4
+    Total Functions: 5
+    Total NLOC:      66
+    Avg Complexity:  5.80
+
+----------------------------------------
+
+FOLDER: run_D1_C4.5
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 13 | LOC: 28 | Params: 1
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 3 | Params: 1
+  [board.py] -> apply_move
+    Complexity: 5 | LOC: 11 | Params: 2
+  [board.py] -> get_pos_string
+    Complexity: 2 | LOC: 4 | Params: 1
+  [code.py] -> main
+    Complexity: 7 | LOC: 24 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C4.5
+    Total Functions: 5
+    Total NLOC:      70
+    Avg Complexity:  5.60
+
+----------------------------------------
+
+FOLDER: run_D1_C5.1
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 14 | LOC: 27 | Params: 1
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 5 | Params: 1
+  [board.py] -> apply_move
+    Complexity: 5 | LOC: 11 | Params: 2
+  [board.py] -> get_pos_string
+    Complexity: 2 | LOC: 3 | Params: 1
+  [code.py] -> main
+    Complexity: 8 | LOC: 25 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C5.1
+    Total Functions: 5
+    Total NLOC:      71
+    Avg Complexity:  6.00
+
+----------------------------------------
+
+FOLDER: run_D1_C5.2
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 14 | LOC: 27 | Params: 1
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 5 | Params: 1
+  [board.py] -> apply_move
+    Complexity: 5 | LOC: 11 | Params: 2
+  [board.py] -> get_pos_string
+    Complexity: 2 | LOC: 3 | Params: 1
+  [code.py] -> main
+    Complexity: 8 | LOC: 25 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C5.2
+    Total Functions: 5
+    Total NLOC:      71
+    Avg Complexity:  6.00
+
+----------------------------------------
+
+FOLDER: run_D1_C5.3
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 15 | LOC: 27 | Params: 1
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 5 | Params: 1
+  [board.py] -> apply_move
+    Complexity: 5 | LOC: 10 | Params: 2
+  [board.py] -> get_pos_string
+    Complexity: 2 | LOC: 3 | Params: 1
+  [code.py] -> main
+    Complexity: 10 | LOC: 25 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C5.3
+    Total Functions: 5
+    Total NLOC:      70
+    Avg Complexity:  6.60
+
+----------------------------------------
+
+FOLDER: run_D1_C5.4
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 14 | LOC: 25 | Params: 1
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 5 | Params: 1
+  [board.py] -> apply_move
+    Complexity: 6 | LOC: 9 | Params: 2
+  [board.py] -> get_pos_string
+    Complexity: 2 | LOC: 3 | Params: 1
+  [code.py] -> main
+    Complexity: 10 | LOC: 21 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C5.4
+    Total Functions: 5
+    Total NLOC:      63
+    Avg Complexity:  6.60
+
+----------------------------------------
+
+FOLDER: run_D1_C5.5
+###################
+  [engine.py] -> get_legal_moves
+    Complexity: 13 | LOC: 21 | Params: 1
+  [board.py] -> __init__
+    Complexity: 1 | LOC: 3 | Params: 1
+  [board.py] -> apply_moves
+    Complexity: 5 | LOC: 9 | Params: 2
+  [board.py] -> get_header
+    Complexity: 1 | LOC: 5 | Params: 1
+  [code.py] -> main
+    Complexity: 7 | LOC: 20 | Params: 0
+
+  > FOLDER SUMMARY: run_D1_C5.5
+    Total Functions: 5
+    Total NLOC:      58
+    Avg Complexity:  5.40
+
+----------------------------------------
+
