@@ -1,0 +1,4 @@
+WKg7;WRb6;BKf8
+22 : Kf6;Kf7;Kg6;Kg8;Kh6;Kh7;Kh8;Kxf8;Ra6;Rb1;Rb2;Rb3;Rb4;Rb5;Rb7;Rb8;Rc6;Rd6;Re6;Rf6;Rg6;Rh6
+22 : Kf6;Kf7;Kg6;Kg8;Kh6;Kh7;Kh8;Kxf8;Ra6;Rb1;Rb2;Rb3;Rb4;Rb5;Rb7;Rb8;Rc6;Rd6;Re6;Rf6;Rg6;Rh6
+0 :

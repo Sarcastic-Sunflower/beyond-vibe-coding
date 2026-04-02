@@ -2,8 +2,9 @@ Forget all previous chats, threads, or projects. Approach this with new eyes. Ac
 Your task is to refactor and improve the efficiency and structure of this code.
 Constraints:
 
-    You are allowed to create additional files to reorganize the project.
-    The output file name and the exact output format must remain identical to the original.
+    You are allowed to create additional files to reorganise the project.
+    The output file name and the exact output format must remain identical to the original. However, change the logical output to output  
+    the correct moves (especially line 4).
     The code must continue to read from the same input text file.
 
 Logic Requirements: Refactor the code logic to correctly identify all possible moves for the current board position. The code must process the next 3 moves from the provided text file and output the results in the exact format as shown in the code.
