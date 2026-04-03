@@ -1,0 +1,10 @@
+Forget all previous chats, threads, or projects. Approach this with new eyes. Act as a Senior Software Engineer. I will provide you with a legacy Python chess engine script, saved as code.py and a text file containing a move history, moves2.txt.
+Your task is to refactor and improve the efficiency and structure of this code.
+Constraints:
+
+    You are allowed to create additional files to reorganise the project.
+    The output file name and the exact output format must remain identical to the original. However, change the logical output to output  
+    the correct moves.
+    The code must continue to read from the same input text file.
+
+Logic Requirements: Refactor the code logic to correctly identify all possible moves for the current board position. The code must process the next 3 moves from the provided text file and output the results in the exact format as shown in the code.
