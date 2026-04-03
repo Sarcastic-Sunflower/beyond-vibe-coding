@@ -7,4 +7,6 @@ Constraints:
     the correct moves.
     The code must continue to read from the same input text file.
 
-Logic Requirements: Refactor the code logic to correctly identify all possible moves for the current board position. The code must process the next 3 moves from the provided text file and output the results in the exact format as shown in the code.
+Logic Requirements: Refactor the code logic to correctly identify all possible moves for the current board position. The code must process the next 4 moves for white and 3 moves for black from the provided text file and output the results in the exact format as shown in the code.
+
+In this game, it is black to move. Therefore the output file must contain the next moves for black.
