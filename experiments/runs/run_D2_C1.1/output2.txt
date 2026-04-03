@@ -1,4 +1,4 @@
-WKa5;WPd7;WPe6;BKb7;BNb6
-14 : Nd7;Nd5;Nc8;Nc4;Na8;Na4;Kc7;Kc8;Kb8;Ka8;Ka7;Ka6;Kb6;Kc6
-13 : Nd7;Nd5;Nc8;Nc4;Na8;Na4;Kc7;Kc8;Kb8;Ka8;Ka7;Ka6;Kc6
-1 : Kb6
+WKa5;WPe7;WQc8;BKa7
+5 : Ka6;Ka8;Kb6;Kb7;Kb8
+5 : Ka6;Ka8;Kb6;Kb7;Kb8
+0 :
