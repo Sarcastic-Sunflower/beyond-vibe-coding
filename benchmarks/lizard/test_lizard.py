@@ -1,3 +1,5 @@
+#python3 -m venv .venv
+#source .venv/bin/activate
 import lizard
 import os
 
@@ -36,7 +38,7 @@ def generate_communal_report(root_dir, output_file):
                 
                 # Each file_info has a 'function_list'
                 for func in file_info.function_list:
-                    f.write(f"  [{fname}] -> {func.name}\n")
+                    f.write(f"  [{fname}]: {func.name}\n")
                     f.write(f"    Complexity: {func.cyclomatic_complexity} | LOC: {func.nloc} | Params: {func.parameter_count}\n")
 
                     total_nloc += func.nloc
@@ -60,3 +62,4 @@ REPORT_NAME = 'summary_lizard.txt'
 
 if __name__ == "__main__":
     generate_communal_report(TARGET_PATH, REPORT_NAME)
+#deactivate
