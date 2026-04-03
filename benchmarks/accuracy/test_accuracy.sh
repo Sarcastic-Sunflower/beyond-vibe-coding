@@ -1,4 +1,4 @@
-kk#!/bin/bash
+#!/bin/bash
 
 if [ "$#" -ne 3 ]; then
     echo "Usage: $0 X Y Z"
@@ -7,12 +7,17 @@ fi
 
 X=$1; Y=$2; Z=$3
 TARGET_FILE="../../experiments/runs/run_D${X}_C${Y}.${Z}/output${X}.txt"
-echo $TARGET_FILE
+#echo $TARGET_FILE
 TRUE_FILE="../../datasets/ground_truth/true_moves${X}.txt"
 SUMMARY_FILE="summary${X}.txt"
 
-if [[ ! -f "$TRUE_FILE" || ! -f "$TARGET_FILE" ]]; then
-    echo "Error: Files missing."
+if [! -f "$TRUE_FILE"]; then
+    echo "Error: Files missing true_moves${X}.txt"
+    exit 1
+fi
+
+if [ ! -f "$TARGET_FILE" ]; then
+    echo "Error: Files missing output${X}.txt"
     exit 1
 fi
 
