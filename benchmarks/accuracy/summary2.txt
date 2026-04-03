@@ -58,3 +58,63 @@ TOTAL ACCURACY: 57.14%
 MATH: (8 correct / 14 expected) * 100
 
 
+======== run_D2_C2.1 ========
+--- Mismatch Report for output2.txt ---
+Line 1: MISMATCH (2 total: 1 missing, 1 extra)
+Line 2: MATCH (0 mismatches)
+Line 3: MISMATCH (5 total: 0 missing, 5 extra)
+Line 4: MISMATCH (5 total: 5 missing, 0 extra)
+Line 5 (Ref): 1 : Ka7
+--------------------------------------
+TOTAL ACCURACY: 57.14%
+MATH: (8 correct / 14 expected) * 100
+
+
+======== run_D2_C2.2 ========
+--- Mismatch Report for output2.txt ---
+Line 1: MISMATCH (2 total: 1 missing, 1 extra)
+Line 2: MATCH (0 mismatches)
+Line 3: MISMATCH (5 total: 0 missing, 5 extra)
+Line 4: MISMATCH (5 total: 5 missing, 0 extra)
+Line 5 (Ref): 1 : Ka7
+--------------------------------------
+TOTAL ACCURACY: 57.14%
+MATH: (8 correct / 14 expected) * 100
+
+
+======== run_D2_C2.3 ========
+--- Mismatch Report for output2.txt ---
+Line 1: MISMATCH (2 total: 1 missing, 1 extra)
+Line 2: MATCH (0 mismatches)
+Line 3: MISMATCH (1 total: 0 missing, 1 extra)
+Line 4: MISMATCH (5 total: 5 missing, 0 extra)
+Line 5 (Ref): 1 : Ka7
+--------------------------------------
+TOTAL ACCURACY: 57.14%
+MATH: (8 correct / 14 expected) * 100
+
+
+======== run_D2_C2.4 ========
+--- Mismatch Report for output2.txt ---
+Line 1: MISMATCH (2 total: 1 missing, 1 extra)
+Line 2: MATCH (0 mismatches)
+Line 3: MISMATCH (1 total: 0 missing, 1 extra)
+Line 4: MISMATCH (5 total: 5 missing, 0 extra)
+Line 5 (Ref): 1 : Ka7
+--------------------------------------
+TOTAL ACCURACY: 57.14%
+MATH: (8 correct / 14 expected) * 100
+
+
+======== run_D2_C2.5 ========
+--- Mismatch Report for output2.txt ---
+Line 1: MISMATCH (2 total: 1 missing, 1 extra)
+Line 2: MATCH (0 mismatches)
+Line 3: MISMATCH (1 total: 0 missing, 1 extra)
+Line 4: MISMATCH (5 total: 5 missing, 0 extra)
+Line 5 (Ref): 1 : Ka7
+--------------------------------------
+TOTAL ACCURACY: 57.14%
+MATH: (8 correct / 14 expected) * 100
+
+
