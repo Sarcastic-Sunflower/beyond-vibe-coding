@@ -1,0 +1,5 @@
+WKa4;WQc8;BKa7
+5 : Ka6;Ka8;Kb6;Kb7;Kb8
+1 : Kb6
+4 : Ka6;Ka8;Kb7;Kb8
+1 : Ka7
