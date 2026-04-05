@@ -83,8 +83,8 @@ This is the core of the repository and contains all LLM-generated outputs and it
 
 - **runs**  
   A comprehensive record of all experimental runs, organised by:
-  - Dataset (D1–D3)
-  - Chat/session (C1–C10)
+  - Dataset (D1–D2)
+  - Chat/session (C1–C5)
   - Iteration (1–5)
 
 Each run directory contains:
