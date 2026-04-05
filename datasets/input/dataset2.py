@@ -106,7 +106,6 @@ def main():
     leg_line = format_move_line(leg_m)
     ill_line = format_move_line(ill_m)
 
-    # Output mirroring your exact requested structure
     out_path = os.path.join(script_dir, "output2.txt")
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(pos + "\n")

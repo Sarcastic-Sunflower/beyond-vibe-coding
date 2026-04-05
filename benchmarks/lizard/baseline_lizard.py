@@ -18,14 +18,12 @@ def generate_flat_report(target_dir, output_file):
         f.write("BASELINE SCRIPT ANALYSIS REPORT\n")
         f.write("=" * 40 + "\n\n")
 
-        # Process each file individually
         for file_path in py_files:
             file_name = os.path.basename(file_path)
             
             f.write(f"SCRIPT: {file_name}\n")
             f.write(f"{'#' * (len(file_name) + 8)}\n")
 
-            # Analyze the single file
             file_info = lizard.analyze_file(file_path)
 
             file_nloc = 0
@@ -33,14 +31,13 @@ def generate_flat_report(target_dir, output_file):
             func_count = 0
 
             for func in file_info.function_list:
-                f.write(f"  -> {func.name}\n")
+                f.write(f" : {func.name}\n")
                 f.write(f"     Complexity: {func.cyclomatic_complexity} | LOC: {func.nloc} | Params: {func.parameter_count}\n")
 
                 file_nloc += func.nloc
                 file_complexity += func.cyclomatic_complexity
                 func_count += 1
 
-            # Summary for this specific script
             if func_count > 0:
                 avg_complexity = file_complexity / func_count
                 f.write(f"\n  > SCRIPT SUMMARY: {file_name}\n")
@@ -54,8 +51,7 @@ def generate_flat_report(target_dir, output_file):
 
     print(f"Baseline report successfully generated: {output_file}")
 
-# --- CONFIGURATION ---
-# Points to your flat datasets folder
+
 TARGET_PATH = '../../datasets/input'
 REPORT_NAME = 'baseline_lizard.txt'
 

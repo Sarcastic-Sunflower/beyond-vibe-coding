@@ -15,13 +15,11 @@ TIMEFORMAT='%R'
 echo "Starting benchmarks in $PARENT_DIR..."
 
 for dir in "$PARENT_DIR"*/; do
-    # Remove trailing slash
     dir=${dir%/}
     
     if [ -d "$dir" ]; then
         ID=$(basename "$dir")
         
-        # Navigate to the subfolder
         cd "$dir" || continue
 
         if [ -f "main.py" ]; then
@@ -36,10 +34,8 @@ for dir in "$PARENT_DIR"*/; do
 
         echo "Running project: $ID"
 
-        # Silencing Python output to keep the console clean
         EXEC_TIME=$({ time python3 "$ENTRY_POINT" > /dev/null 2>&1; } 2>&1)
 
-        # Convert seconds to milliseconds (Seconds * 1000)
         MS_TIME=$(echo "$EXEC_TIME * 1000" | bc -l | xargs printf "%.0f")
 
         echo "$ID, $MS_TIME" >> "$OLDPWD/$OUTPUT_FILE"

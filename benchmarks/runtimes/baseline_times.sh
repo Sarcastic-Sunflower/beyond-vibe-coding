@@ -14,10 +14,8 @@ TIMEFORMAT='%R'
 
 echo "Starting benchmarks in $PARENT_DIR..."
 
-        # Silencing Python output to keep the console clean
         EXEC_TIME=$({ time python3 dataset1.py > /dev/null 2>&1; } 2>&1)
 
-        # Convert seconds to milliseconds (Seconds * 1000)
         MS_TIME=$(echo "$EXEC_TIME * 1000" | bc -l | xargs printf "%.0f")
 
         echo "Dataset1, $MS_TIME" >> "$OUTPUT_FILE"
@@ -25,10 +23,8 @@ echo "Starting benchmarks in $PARENT_DIR..."
 
 echo "Starting benchmarks in $PARENT_DIR..."
 
-        # Silencing Python output to keep the console clean
         EXEC_TIME=$({ time python3 dataset2.py > /dev/null 2>&1; } 2>&1)
 
-        # Convert seconds to milliseconds (Seconds * 1000)
         MS_TIME=$(echo "$EXEC_TIME * 1000" | bc -l | xargs printf "%.0f")
 
         echo "Dataset2, $MS_TIME" >> "$OUTPUT_FILE"

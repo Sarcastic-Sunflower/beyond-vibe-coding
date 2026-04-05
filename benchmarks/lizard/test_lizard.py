@@ -1,5 +1,3 @@
-#python3 -m venv .venv
-#source .venv/bin/activate
 import lizard
 import os
 
@@ -25,18 +23,15 @@ def generate_communal_report(root_dir, output_file):
             f.write(f"FOLDER: {folder}\n")
             f.write(f"{'#' * (len(folder) + 8)}\n")
 
-            # Analyze the files in the folder
             file_analyses = lizard.analyze(py_files)
 
             total_nloc = 0
             total_complexity = 0
             func_count = 0
 
-            # file_analyses is a generator of 'FileInformation' objects
             for file_info in file_analyses:
                 fname = os.path.basename(file_info.filename)
                 
-                # Each file_info has a 'function_list'
                 for func in file_info.function_list:
                     f.write(f"  [{fname}]: {func.name}\n")
                     f.write(f"    Complexity: {func.cyclomatic_complexity} | LOC: {func.nloc} | Params: {func.parameter_count}\n")
@@ -56,10 +51,9 @@ def generate_communal_report(root_dir, output_file):
 
     print(f"Report successfully generated: {output_file}")
 
-# --- CONFIGURATION ---
 TARGET_PATH = '../../experiments/runs'
 REPORT_NAME = 'summary_lizard.txt'
 
 if __name__ == "__main__":
     generate_communal_report(TARGET_PATH, REPORT_NAME)
-#deactivate
+
