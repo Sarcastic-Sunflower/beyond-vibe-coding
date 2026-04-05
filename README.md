@@ -64,7 +64,7 @@ This directory contains the controlled inputs and expected outputs used for eval
 Supporting documentation for the experimental process.
 
 - Chat logs and references (`Links-to-Chats.txt`)
-- Supplementary notes and analysis (`Notes_*.pdf`)
+- Supplementary notes and analysis show board setups and planning.
 
 ---
 
