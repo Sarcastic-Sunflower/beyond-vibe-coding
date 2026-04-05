@@ -1,0 +1,12 @@
+======== run_D1_C1.1 ========
+--- Mismatch Report for output1.txt ---
+Line 1: MISMATCH (6 total: 3 missing, 3 extra)
+Line 2: MISMATCH (22 total: 19 missing, 3 extra)
+Line 3: MISMATCH (22 total: 18 missing, 4 extra)
+Line 4: MISMATCH (3 total: 2 missing, 1 extra)
+Line 5 (Ref): 5 : Rb6;Kg6;Rg6;Rh6;Rxg6
+--------------------------------------
+TOTAL ACCURACY: 6.66%
+MATH: (3 correct / 45 expected) * 100
+
+

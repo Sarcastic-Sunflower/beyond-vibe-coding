@@ -1,5 +1,5 @@
-BKg8;WKf5;WRa6
-22 : Ra1;Ra2;Ra3;Ra4;Ra5;Ra7;Ra8;Rb6;Rc6;Rd6;Ke4;Ke5;Ke6;Re6;Kf4;Kf6;Rf6;Kg4;Kg5;Kg6;Rg6;Rh6
-22 : Ra1;Ra2;Ra3;Ra4;Ra5;Ra7;Ra8;Rb6;Rc6;Rd6;Ke4;Ke5;Ke6;Re6;Kf4;Kf6;Rf6;Kg4;Kg5;Kg6;Rg6;Rh6
-2 : Ke5;Kg5
-4 : Rb6;Kg6;Rg6;Rh6
+BKg7;WKg5;WRb6
+22 : Ra6;Rb1;Rb2;Rb3;Rb4;Rb5;Rb7;Rb8;Rc6;Rd6;Re6;Kf4;Kf5;Kf6;Rf6;Kg4;Kg6;Rg6;Kh4;Kh5;Kh6;Rh6
+22 : Ra6;Rb1;Rb2;Rb3;Rb4;Rb5;Rb7;Rb8;Rc6;Rd6;Re6;Kf4;Kf5;Kf6;Rf6;Kg4;Kg6;Rg6;Kh4;Kh5;Kh6;Rh6
+2 : Kf5;Kh5
+3 : Kg6;Rg6;Rh6

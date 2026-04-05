@@ -1,0 +1,12 @@
+======== run_D2_C2.2 ========
+--- Mismatch Report for output2.txt ---
+Line 1: MISMATCH (5 total: 2 missing, 3 extra)
+Line 2: MISMATCH (4 total: 0 missing, 4 extra)
+Line 3: MISMATCH (8 total: 0 missing, 8 extra)
+Line 4: MISMATCH (6 total: 5 missing, 1 extra)
+Line 5 (Ref): 1 : Ka7
+--------------------------------------
+TOTAL ACCURACY: 50.00%
+MATH: (7 correct / 14 expected) * 100
+
+
