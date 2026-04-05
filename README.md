@@ -21,11 +21,11 @@ The project is organised into several functional areas to support the empirical 
 │ ├── ground_truth
 │ └── input
 ├── docs
-├── experiments
-│ ├── prelim_results
-│ ├── prompts
-│ └── runs
-└── helper_scripts
+└── experiments
+  ├── prelim_results
+  ├── prompts
+  └── runs
+
 ```
 
 A total of **210 directories and 494 files** are included, reflecting extensive iterative experimentation.
@@ -91,13 +91,6 @@ Each run directory contains:
 - Compiled artefacts (`__pycache__`)
 
 This structure enables precise tracking of how code evolves across iterations and prompt refinements.
-
----
-
-### 5. helper_scripts
-
-- **auto.sh**  
-  Automation script used to execute benchmarking pipelines across multiple experiment directories.
 
 ---
 
