@@ -74,6 +74,9 @@ This is the core of the repository and contains all LLM-generated outputs and it
 
 - **prelim_results**  
   Early-stage exploratory runs and initial improvements.
+  These experiments were performed in Gemini-3.0-pro.
+  However, the latency in LLM response time proved to be too great.
+  Additionally, these experiments were conducted on a 3-prompt system. Reducing the iteration from 2-4 in the final experiment to only prompt 2. This approach showed little accuracy improvement in baseline code and little nto o progress between iterations and chats.
 
 - **prompts**  
   The full set of multi-turn prompts used to guide LLM behaviour during refactoring.
