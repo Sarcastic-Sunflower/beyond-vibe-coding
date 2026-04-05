@@ -105,6 +105,74 @@ All generated code iterations were evaluated using a fixed output structure:
 
 ---
 
+## System Requirements
+
+The project was developed and tested in a Unix-based environment.
+
+- **Operating System**: Linux or macOS (Windows users should use WSL)
+- **Bash**: Required to execute benchmark scripts
+- **Python 3.x**: Required for dataset handling and Lizard analysis
+- **Python Package**:
+  - `lizard` (for Cyclomatic Complexity analysis)
+
+Install the required Python package:
+
+```bash
+pip install lizard
+```
+It is recommended to use a virtual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install lizard
+```
+---
+## Preparing Scripts
+
+Before running any benchmarks, ensure scripts have execution permissions:
+```bash
+chmod +x *.sh
+```
+Run this command in each benchmark directory as needed.
+---
+## Running Benchmarks
+
+All benchmarking scripts are located within the ```benchmarks``` directory and are organised by type: accuracy, runtime, and complexity (Lizard).
+
+1. Accuracy Benchmarks
+```bash
+cd benchmarks/accuracy
+./test_accuracy.sh
+```
+
+Optional baseline comparison:
+```bash
+./baseline_accuracy.sh
+```
+
+2. Runtime Benchmarks
+```bash
+cd benchmarks/runtimes
+./test_runtimes.sh
+```
+
+Optional baseline comparison:
+```bash
+./baseline_times.sh
+```
+
+3. Cyclomatic Complexity (Lizard)
+```bash
+cd benchmarks/lizard
+python3 test_lizard.py
+```
+
+Optional baseline comparison:
+```bash
+python3 baseline_lizard.py
+```
+
+---
 ## Findings Summary
 
 The study found that Gemini-3.0-Flash is effective in reducing Cyclomatic Complexity, indicating an ability to simplify code structure. However, it demonstrates fragile logic when maintaining domain-specific correctness. Iterative human-in-the-loop feedback improves performance to some extent but does not ensure consistent correctness or efficient optimisation.
